@@ -8,7 +8,13 @@ export default function SkillListItem({ skill, index }) {
         className='SkillListItem'
         style={ {backgroundColor: index % 2 ? 'lavender' : 'plum'}}
     >
-        {skill}
+        {skill.name} {skill.level}
     </li>
   )
 }
+
+
+
+
+
+//sorry
